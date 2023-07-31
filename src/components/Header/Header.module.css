@@ -1,0 +1,59 @@
+.header {
+  max-width: 1120px;
+  width: 100%;
+  padding: 7px 15px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 25px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.logoLink {
+  opacity: 1;
+  transition: opacity, 0.3s linear;
+}
+
+.logoLink {
+  opacity: 0.8;
+}
+
+.veraLogo {
+  width: 114px;
+  height: 80px;
+}
+
+.xLogo {
+  width: 19px;
+  height: 19px;
+}
+
+.domLogo {
+  width: 81px;
+  height: 80px;
+}
+
+.burger {
+  width: 28px;
+  height: 30px;
+  background-image: url(../../images/burger-menu.svg);
+  background-size: 28px 30px;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  transition: opacity 0.3s linear;
+}
+
+.burger:hover {
+  opacity: 0.5;
+}
