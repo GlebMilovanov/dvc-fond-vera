@@ -1,0 +1,43 @@
+.thankYou {
+  padding: 70px 0 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(../../images/thankyou-background.svg);
+  background-repeat: no-repeat;
+  background-size: 1017px;
+  background-position: bottom;
+  margin-left: 40px;
+}
+
+.hashtag {
+  margin-bottom: 15px;
+  padding: 20px 121px 23px;
+  background-image: url(../../images/hashtag-background.svg);
+  background-size: 490px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.link {
+  margin: 0;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #00adee;
+  text-decoration: underline;
+  transition: opacity 0.3s linear;
+}
+
+.link:hover {
+  opacity: 0.8;
+}
+
+.subtitle {
+  margin: 0;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 32px;
+  max-width: 730px;
+  text-align: center;
+}
