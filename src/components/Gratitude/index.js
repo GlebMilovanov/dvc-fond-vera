@@ -9,7 +9,12 @@ import { GratitudePDF } from './GratitudePDF';
 export const Gratitude = () => {
   const [teacherName, setTeacherName] = useState('');
 
-  const formatFilename = (name) => `благодарность_${name.split(' ').join('_')}.pdf`;
+  const resetValues = () => {
+    setTeacherName('')
+  }
+
+  const formatFilename = name =>
+    `благодарность_${name.split(' ').join('_')}.pdf`;
 
   const downloadPDF = useCallback(() => {
     const filename = formatFilename(teacherName);
@@ -29,17 +34,18 @@ export const Gratitude = () => {
     const pdfElement = document.createElement('div');
     pdfElement.innerHTML = htmlString;
 
-    html2pdf()
-      .set(opt)
-      .from(pdfElement)
-      .outputPdf()
-      .save();
+    html2pdf().set(opt).from(pdfElement).outputPdf().save();
+    resetValues()
   }, [teacherName]);
 
   return (
     <section className={styles.gratitude}>
       <GratitudePreview name={teacherName} />
-      <GratitudeForm onNameChange={setTeacherName} downloadPDF={downloadPDF} />
+      <GratitudeForm
+        name={teacherName}
+        onNameChange={setTeacherName}
+        downloadPDF={downloadPDF}
+      />
     </section>
   );
 };

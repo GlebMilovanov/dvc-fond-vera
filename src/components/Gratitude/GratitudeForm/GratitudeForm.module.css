@@ -79,6 +79,9 @@
   background-color: #e7e7e1;
   color: #6c757d;
   cursor: default;
+}
+
+.disabled:hover {
   opacity: 1;
 }
 

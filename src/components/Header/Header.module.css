@@ -1,15 +1,29 @@
 .header {
-  max-width: 1120px;
   width: 100%;
-  padding: 7px 15px;
-  box-sizing: border-box;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
   position: fixed;
   top: 25px;
   left: 50%;
   transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.1s linear;
+}
+
+.scrolled {
+  background-color: rgba(89, 200, 253, 0.9);
+  top: 0;
+  z-index: 1000;
+}
+
+.container {
+  max-width: 1120px;
+  width: 100%;
+  padding: 7px 16px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .logoContainer {

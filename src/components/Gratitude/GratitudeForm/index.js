@@ -1,19 +1,16 @@
 import styles from './GratitudeForm.module.css';
 import saveActive from './images/save-active.svg';
-import saveDisabled from './images/save-disabled.svg'
-import teacher from './images/teacher.svg'
+import saveDisabled from './images/save-disabled.svg';
+import teacher from './images/teacher.svg';
+import { useForm } from '../../../hooks/useForm';
 
-export const GratitudeForm = ({ onNameChange, downloadPDF }) => {
-  const handleChange = event => {
-    setTimeout(() => {
-      onNameChange(event.target.value);
-    }, 1000);
-  };
+export const GratitudeForm = ({ name, onNameChange, downloadPDF }) => {
+  const initialValues = { name };
 
-  const handleSubmit = (event) => {
-    event.preventDefault()
-    downloadPDF()
-  }
+  const { values, isValid, formRef, handleChange, handleSubmit } = useForm(
+    initialValues,
+    downloadPDF
+  );
 
   return (
     <div className={styles.container}>
@@ -22,11 +19,12 @@ export const GratitudeForm = ({ onNameChange, downloadPDF }) => {
         Пожалуйста, заполните эти поля, чтобы скачать именную благодарность для
         вашего учителя.
       </p>
-      <form className={styles.form} onSubmit={handleSubmit}>
+      <form ref={formRef} className={styles.form} onSubmit={handleSubmit}>
         <label className={styles.inputName} htmlFor="name">
           Имя и отчество
         </label>
         <input
+          value={values.name}
           className={styles.input}
           id="name"
           name="name"
@@ -35,14 +33,21 @@ export const GratitudeForm = ({ onNameChange, downloadPDF }) => {
           required
           minLength={3}
           maxLength={40}
-          onChange={handleChange}
+          onChange={(e) => handleChange(e, onNameChange)}
         ></input>
-        <button className={`${styles.submitButton}`}>
-          <img src={saveActive} alt="стрелка" className={styles.arrow} />
+        <button
+          className={`${styles.submitButton} ${isValid ? '' : styles.disabled}`}
+          disabled={!isValid}
+        >
+          <img
+            src={isValid ? saveActive : saveDisabled}
+            alt="стрелка"
+            className={styles.arrow}
+          />
           <span>Сохранить в pdf</span>
         </button>
       </form>
-      <img src={teacher} alt='учительница' className={styles.teacher}/>
+      <img src={teacher} alt="учительница" className={styles.teacher} />
     </div>
   );
 };

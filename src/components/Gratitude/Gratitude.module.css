@@ -4,4 +4,5 @@
   background-image: url(../../images/gratitude-background-flowers.svg), url(../../images/gratitude-background-blue.svg);
   background-position: center top, bottom;
   background-repeat: no-repeat;
+  padding: 0 16px;
 }

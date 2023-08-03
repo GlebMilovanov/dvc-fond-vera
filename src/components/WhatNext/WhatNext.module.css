@@ -4,7 +4,7 @@
   align-items: center;
   background-image: url(../../images/what-next-background-clouds.svg),
     url(../../images/what-next-background-blue.svg);
-  padding: 110px 0 57px;
+  padding: 110px 16px 57px;
   color: #fff;
   gap: 47px;
   background-repeat: no-repeat;
@@ -87,4 +87,10 @@ margin-top: -40px;
 
 .girls {
   margin-left: -2px;
+}
+
+@media (max-width: 1280px) {
+  .girls {
+    display: none;
+  }
 }
