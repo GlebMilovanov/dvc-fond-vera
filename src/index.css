@@ -16,4 +16,6 @@ code {
 
 .page {
   font-family: Pribambas;
+  max-width: 1956px;
+  margin: 0 auto;
 }

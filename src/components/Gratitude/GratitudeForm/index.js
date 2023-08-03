@@ -1,12 +1,19 @@
 import styles from './GratitudeForm.module.css';
-import saveActive from '../../images/save-active.svg';
+import saveActive from './images/save-active.svg';
+import saveDisabled from './images/save-disabled.svg'
+import teacher from './images/teacher.svg'
 
-export const GratitudeForm = ({ onNameChange }) => {
+export const GratitudeForm = ({ onNameChange, downloadPDF }) => {
   const handleChange = event => {
     setTimeout(() => {
       onNameChange(event.target.value);
     }, 1000);
   };
+
+  const handleSubmit = (event) => {
+    event.preventDefault()
+    downloadPDF()
+  }
 
   return (
     <div className={styles.container}>
@@ -15,8 +22,8 @@ export const GratitudeForm = ({ onNameChange }) => {
         Пожалуйста, заполните эти поля, чтобы скачать именную благодарность для
         вашего учителя.
       </p>
-      <form className={styles.form}>
-        <label className={styles.inputName} for="name">
+      <form className={styles.form} onSubmit={handleSubmit}>
+        <label className={styles.inputName} htmlFor="name">
           Имя и отчество
         </label>
         <input
@@ -35,6 +42,7 @@ export const GratitudeForm = ({ onNameChange }) => {
           <span>Сохранить в pdf</span>
         </button>
       </form>
+      <img src={teacher} alt='учительница' className={styles.teacher}/>
     </div>
   );
 };

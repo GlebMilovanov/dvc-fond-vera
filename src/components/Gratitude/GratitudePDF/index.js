@@ -1,13 +1,15 @@
-import styles from './GratitudePreview.module.css';
-import gratitudeHeading from '../../images/gratitude-heading.svg';
-import logoVera from '../../images/logo-vera-green.svg'
-import logoDom from '../../images/logo-dom-gratitude.svg'
-import federmesser from '../../images/federmesser.svg';
-import moniava from '../../images/moniava.svg';
+import styles from './GratitudePDF.module.css'
+import gratitudeHeading from './images/PDF-gratitude-heading.svg';
+import logoVera from './images/PDF-logo-vera-green.svg'
+import logoDom from './images/PDF-logo-dom-gratitude.svg'
+import federmesser from './images/PDF-federmesser.svg';
+import moniava from './images/PDF-moniava.svg';
 
-export const GratitudePreview = ({ name }) => {
+import { forwardRef } from 'react';
+
+export const GratitudePDF = forwardRef(({ name }, ref) => {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} ref={ref}>
       <img src={gratitudeHeading} alt="заголовок" className={styles.heading} />
       <div className={styles.logoContainer}>
         <img src={logoVera} alt='логотип' className={styles.veraLogo} />
@@ -27,7 +29,7 @@ export const GratitudePreview = ({ name }) => {
           помочь. Не всегда вылечить, но сделать жизнь лучше и полнее.
         </p>
         <p className={styles.text}>
-          В 2022 году Фонд «Вера» и Фонд «Дом с маяком» помогают более 1060
+          В 2023 году Фонд «Вера» и Фонд «Дом с маяком» помогают более 1050
           неизлечимо больным детям. У каждого ребёнка своя история, за каждым
           ребёнком — целый мир. Спасибо, что помогаете им жить, взрослеть и
           развиваться.
@@ -71,4 +73,4 @@ export const GratitudePreview = ({ name }) => {
       </div>
     </div>
   );
-};
+});

@@ -6,7 +6,7 @@
   flex-direction: column;
   background-color: #fff;
   transform: rotate(-5deg);
-  margin-top: -40px;
+  margin: -40px 0;
   position: relative;
 }
 
@@ -111,10 +111,12 @@
   position: absolute;
   top: 40px;
   right: 0;
+  transform: rotate(5deg);
 }
 
 .signatureMoniavaImage {
   position: absolute;
   top: 15px;
   right: -10px;
+  transform: rotate(5deg);
 }

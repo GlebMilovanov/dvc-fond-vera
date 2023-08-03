@@ -1,0 +1,90 @@
+.whatNext {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../../images/what-next-background-clouds.svg),
+    url(../../images/what-next-background-blue.svg);
+  padding: 110px 0 57px;
+  color: #fff;
+  gap: 47px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.textContainer {
+  margin-left: 100px;
+}
+
+.title {
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 50px;
+  margin: 0 0 10px;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
+  gap: 13px;
+}
+
+.buttonText {
+  margin: 0;
+  max-width: 350px;
+  font-family: PT Sans;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+.buttonPay {
+  background-color: #ff9670;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 25px;
+  padding: 11.5px 12px;
+  color: #fff;
+  border-radius: 4px;
+  transition: opacity 0.3s linear;
+  text-decoration: none;
+}
+
+.buttonPay:hover {
+  opacity: 0.8;
+}
+
+.text {
+  font-family: PT Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  max-width: 539px;
+  margin: 0 0 15px;
+}
+
+.hashtags {
+  font-family: PT Sans;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  max-width: 539px;
+  margin: 0;
+}
+
+.imageContainer {
+margin-top: -40px;
+}
+
+.boyAndGirl {
+  margin-bottom: 97px;
+}
+
+.girls {
+  margin-left: -2px;
+}

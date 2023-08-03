@@ -1,7 +1,7 @@
 import styles from './Hero.module.css';
-import logoDeti from '../../images/logo-deti.svg';
-import girl from '../../images/girl.svg';
-import boy from '../../images/boy.svg'
+import logoDeti from './images/logo-deti.svg';
+import girl from './images/girl.svg';
+import boy from './images/boy.svg'
 
 export const Hero = () => {
   return (

@@ -1,0 +1,275 @@
+/* styles for a4 */
+
+.container {
+  font-family: PT Sans;
+  max-width: 794px;
+  width: 100%;
+  padding: 77px 84px 0 94px;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.heading {
+  width: 616px;
+  height: auto;
+  margin-bottom: 42px;
+}
+
+.logoContainer {
+  display: flex;
+  position: absolute;
+  top: 278px;
+  right: 84px;
+  gap: 3px;
+  align-items: center;
+  justify-content: center;
+}
+
+.veraLogo {
+  width: 111px;
+  height: auto;
+}
+
+.domLogo {
+  width: 97px;
+  height: auto;
+}
+
+.teacherName {
+  font-size: 29px;
+  font-weight: 700;
+  line-height: 37px;
+  margin: 0 0 4px;
+}
+
+.teacherNameSpan {
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 25px;
+  margin: 0 0 17px;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+  margin: 0 0 16px;
+}
+
+.text {
+  font-family: PT Sans;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 24px;
+  max-width: 606px;
+  margin: 0;
+}
+
+.gratitudeNote {
+  font-family: Pribambas;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 32px;
+  color: #26a9e0;
+  margin: 0 0 51px;
+}
+
+.signature {
+  display: flex;
+  flex-direction: column;
+}
+
+.signatureText {
+  font-family: PT Sans;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 25px;
+  margin: 0 0 13px;
+}
+
+.signatureContainer {
+  display: flex;
+  gap: 17px;
+}
+
+.signatureFedermesser {
+  max-width: 333px;
+  min-height: 142px;
+  position: relative;
+}
+
+.signatureMoniava {
+  max-width: 238px;
+  position: relative;
+}
+
+.signatureName {
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 25px;
+  margin: 0 0 8px;
+}
+
+.signatureJobTitle {
+  font-family: PT Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  margin: 0;
+}
+
+.signatureFedermesserImage {
+  position: absolute;
+  width: 184px;
+  bottom: 0;
+  right: 0;
+  transform: rotate(8.73 deg);
+}
+
+.signatureMoniavaImage {
+  position: absolute;
+  width: 92px;
+  top: 29px;
+  right: 0;
+}
+
+/* styles for a1 */
+
+/* .container {
+  font-family: PT Sans;
+  max-width: 2246px;
+  width: 100%;
+  padding: 218px 238px 0 266px;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.heading {
+  width: 1743px;
+  height: auto;
+  margin-bottom: 119px;
+}
+
+.logoContainer {
+  display: flex;
+  position: absolute;
+  top: 787px;
+  right: 238px;
+  gap: 9px;
+  align-items: center;
+  justify-content: center;
+}
+
+.veraLogo {
+  width: 314px;
+  height: auto;
+}
+
+.domLogo {
+  width: 274px;
+  height: auto;
+}
+
+.teacherName {
+  font-size: 82px;
+  font-weight: 700;
+  line-height: 105px;
+  margin: 0 0 11px;
+}
+
+.teacherNameSpan {
+  font-size: 54px;
+  font-weight: 700;
+  line-height: 71px;
+  margin: 0 0 48px;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 54px;
+  margin: 0 0 45px;
+}
+
+.text {
+  font-family: PT Sans;
+  font-size: 54px;
+  font-weight: 400;
+  line-height: 68px;
+  max-width: 1716px;
+  margin: 0;
+}
+
+.gratitudeNote {
+  font-family: Pribambas;
+  font-size: 91px;
+  font-weight: 400;
+  line-height: 91px;
+  color: #26a9e0;
+  margin: 0 0 144px;
+}
+
+.signature {
+  display: flex;
+  flex-direction: column;
+}
+
+.signatureText {
+  font-family: PT Sans;
+  font-size: 54px;
+  font-weight: 400;
+  line-height: 71px;
+  margin: 0 0 37px;
+}
+
+.signatureContainer {
+  display: flex;
+  gap: 48px;
+}
+
+.signatureFedermesser {
+  max-width: 943px;
+  min-height: 402px;
+  position: relative;
+}
+
+.signatureMoniava {
+  max-width: 674px;
+  position: relative;
+}
+
+.signatureName {
+  font-size: 54px;
+  font-weight: 700;
+  line-height: 71px;
+  margin: 0 0 23px;
+}
+
+.signatureJobTitle {
+  font-family: PT Sans;
+  font-size: 45px;
+  font-weight: 400;
+  line-height: 59px;
+  margin: 0;
+}
+
+.signatureFedermesserImage {
+  position: absolute;
+  width: 521px;
+  bottom: 0;
+  right: 0;
+  transform: rotate(8.73 deg);
+}
+
+.signatureMoniavaImage {
+  position: absolute;
+  width: 260px;
+  top: 82px;
+  right: 0;
+} */

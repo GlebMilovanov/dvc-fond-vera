@@ -2,6 +2,9 @@
   max-width: 538px;
   width: 100%;
   margin-top: 115px;
+  position: relative;
+  margin-left: 60px;
+  display: inline;
 }
 
 .title {
@@ -83,4 +86,9 @@
   width: 16px;
   height: 16px;
   margin-right: 9px;
+}
+
+.teacher {
+  position: absolute;
+  right: 70px;
 }
