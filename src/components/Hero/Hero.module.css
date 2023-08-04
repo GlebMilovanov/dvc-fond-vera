@@ -6,7 +6,7 @@
   justify-content: center;
   align-items: center;
   padding: 160px 16px 70px;
-  background-image: url(../../images/hero-background.svg),
+  background-image: url(./images/hero-background.svg),
     linear-gradient(#59c8fd, #59c8fd),
     radial-gradient(
       circle at 51.1% 55.65%,
@@ -25,12 +25,12 @@
 
 .girlImage {
   width: 114.85px;
-  height: 175.76px;
+  height: auto;
 }
 
 .boyImage {
   width: 137.12px;
-  height: 165.87px;
+  height: auto;
   margin-bottom: 20px;
 }
 
@@ -45,9 +45,6 @@
   opacity: 0.8;
 }
 
-.detiLogo {
-}
-
 .title {
   margin: 0;
   font-family: Pribambas;
@@ -55,4 +52,54 @@
   font-weight: 400;
   line-height: 50px;
   color: #ffffff;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    padding: 154px 16px 62px;
+    background: url(./images/hero-background-mobile.svg),
+      linear-gradient(0deg, #59c8fd, #59c8fd),
+      radial-gradient(
+        79.66% 29.07% at 50% 33.52%,
+        rgba(255, 255, 255, 0.102) 0%,
+        rgba(7, 145, 222, 0.2) 100%
+      );
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 100%;
+  }
+
+  .logoContainer {
+    margin-bottom: 140px;
+    position: relative;
+  }
+
+  .boyImage {
+    position: absolute;
+    width: 105.22px;
+    bottom: -139.29px;
+    right: -1px;
+  }
+
+  .girlImage {
+    position: absolute;
+    width: 88.13px;
+    bottom: -120px;
+    left: 6px;
+  }
+
+  .logoDeti {
+    width: 265.91px;
+  }
+
+  .link {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .title {
+    line-height: 45px;
+    max-width: 330px;
+    text-align: center;
+  }
 }

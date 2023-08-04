@@ -1,8 +1,29 @@
 .gratitude {
   display: flex;
   justify-content: center;
-  background-image: url(../../images/gratitude-background-flowers.svg), url(../../images/gratitude-background-blue.svg);
+  background: url(./images/gratitude-background-flowers.svg),
+    linear-gradient(0.5deg, #e8f5fb 23.68%, rgba(232, 245, 251, 0) 102.23%);
   background-position: center top, bottom;
   background-repeat: no-repeat;
   padding: 0 16px;
+}
+
+@media (max-width: 1024px) {
+  .gratitude {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .gratitude {
+    background: url(./images/gratitude-background-flowers-mobile.svg),
+      linear-gradient(0.5deg, #e8f5fb 23.68%, rgba(232, 245, 251, 0) 102.23%);
+      background-repeat: no-repeat;
+      background-position: center;
+  }
+
+  .gratitudeImage {
+    margin: 40px 0 71px;
+  }
 }

@@ -3,7 +3,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url(../../images/thankyou-background.svg);
+  background-image: url(./images/thankyou-background.svg);
   background-repeat: no-repeat;
   background-size: 1017px;
   background-position: bottom;
@@ -12,11 +12,19 @@
 
 .hashtag {
   margin-bottom: 15px;
-  padding: 20px 121px 23px;
-  background-image: url(../../images/hashtag-background.svg);
-  background-size: 490px;
-  background-repeat: no-repeat;
-  background-position: center;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.flowerLeft {
+  width: 92px;
+  height: auto;
+}
+
+.flowerRight {
+  width: 102px;
+  height: auto;
 }
 
 .link {
@@ -40,4 +48,33 @@
   line-height: 32px;
   max-width: 730px;
   text-align: center;
+}
+
+@media (max-width: 768px) {
+  .thankYou {
+    margin: 0 auto 10px;
+    padding: 31.66px 40px 30px;
+    background-image: url(./images/thankyou-background-mobile.svg);
+    background-size: 330px;
+  }
+
+  .hashtag {
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 30px;
+  }
+
+  .flowerLeft {
+    width: 70.15px;
+  }
+
+  .flowerRight {
+    width: 74.73px;
+  }
+
+  .subtitle {
+    max-width: 330px;
+    font-family: Pribambas;
+    font-size: 25px;
+  }
 }

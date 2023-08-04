@@ -4,7 +4,7 @@ export const Footer = () => {
   return (
     <footer className={styles.footer}>
       <div className={styles.container}>
-        <p className={styles.copyright}>© 2022 Фонд помощи хосписам «Вера»</p>
+        <p className={styles.copyright}>© 2023 Фонд помощи хосписам «Вера»</p>
         <a
           href="https://dvc.fondvera.ru/"
           target="_blank"

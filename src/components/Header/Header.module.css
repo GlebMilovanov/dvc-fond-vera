@@ -8,12 +8,12 @@
   align-items: center;
   justify-content: center;
   transition: all 0.1s linear;
+  z-index: 1000;
 }
 
 .scrolled {
   background-color: rgba(89, 200, 253, 0.9);
   top: 0;
-  z-index: 1000;
 }
 
 .container {
@@ -56,18 +56,36 @@
   height: 80px;
 }
 
-.burger {
-  width: 28px;
-  height: 30px;
-  background-image: url(../../images/burger-menu.svg);
-  background-size: 28px 30px;
-  background-repeat: no-repeat;
-  background-color: transparent;
-  border: none;
-  cursor: pointer;
-  transition: opacity 0.3s linear;
-}
+@media (max-width: 768px) {
+  .header {
+    top: 0;
+    background-color: #58caff;
+  }
 
-.burger:hover {
-  opacity: 0.5;
+  .scrolled {
+    background-color: #58caff;
+  }
+
+  .container {
+    padding: 15px 32px;
+  }
+
+  .logoContainer {
+    gap: 10px;
+  }
+
+  .veraLogo {
+    width: auto;
+    height: 50px;
+  }
+
+  .xLogo {
+    width: 12px;
+    height: 12px;
+  }
+
+  .domLogo {
+    width: auto;
+    height: 50px;
+  }
 }
