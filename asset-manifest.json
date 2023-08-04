@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/dvc-fond-vera/static/css/main.9badd140.css",
-    "main.js": "/dvc-fond-vera/static/js/main.2051771a.js",
+    "main.js": "/dvc-fond-vera/static/js/main.1b31e491.js",
     "static/js/703.f25e7f0b.chunk.js": "/dvc-fond-vera/static/js/703.f25e7f0b.chunk.js",
     "static/js/735.9598a833.chunk.js": "/dvc-fond-vera/static/js/735.9598a833.chunk.js",
     "static/media/gratitude.svg": "/dvc-fond-vera/static/media/gratitude.7bbb6e7b46a0c66ba3dde47bcb1bfd53.svg",
@@ -43,12 +43,12 @@
     "static/media/save-active.svg": "/dvc-fond-vera/static/media/save-active.293f435a5b74dbb0101152e52e54e799.svg",
     "static/media/x.svg": "/dvc-fond-vera/static/media/x.c04dd0cf72763b7993dcb2f961b86418.svg",
     "main.9badd140.css.map": "/dvc-fond-vera/static/css/main.9badd140.css.map",
-    "main.2051771a.js.map": "/dvc-fond-vera/static/js/main.2051771a.js.map",
+    "main.1b31e491.js.map": "/dvc-fond-vera/static/js/main.1b31e491.js.map",
     "703.f25e7f0b.chunk.js.map": "/dvc-fond-vera/static/js/703.f25e7f0b.chunk.js.map",
     "735.9598a833.chunk.js.map": "/dvc-fond-vera/static/js/735.9598a833.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9badd140.css",
-    "static/js/main.2051771a.js"
+    "static/js/main.1b31e491.js"
   ]
 }
