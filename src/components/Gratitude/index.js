@@ -30,7 +30,7 @@ export const Gratitude = () => {
       margin: [0, 0, 0, 0],
       filename: filename,
       image: { type: 'jpeg', quality: 1 },
-      html2canvas: { scale: 2.5, width: '794px' },
+      html2canvas: { scale: 2.5, width: 794 },
       jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' },
     };
 
@@ -43,7 +43,15 @@ export const Gratitude = () => {
 
   return (
     <section className={styles.gratitude}>
-      {isMobile ? <img src={gratitudeImage} alt='грамота' className={styles.gratitudeImage}/> : <GratitudePreview name={teacherName} />}
+      {isMobile ? (
+        <img
+          src={gratitudeImage}
+          alt="грамота"
+          className={styles.gratitudeImage}
+        />
+      ) : (
+        <GratitudePreview name={teacherName} />
+      )}
       <GratitudeForm
         name={teacherName}
         onNameChange={setTeacherName}
