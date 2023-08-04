@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/dvc-fond-vera/static/css/main.3f4ba630.css",
+    "main.css": "/dvc-fond-vera/static/css/main.d01b09dc.css",
     "main.js": "/dvc-fond-vera/static/js/main.2051771a.js",
     "static/js/703.f25e7f0b.chunk.js": "/dvc-fond-vera/static/js/703.f25e7f0b.chunk.js",
     "static/js/735.9598a833.chunk.js": "/dvc-fond-vera/static/js/735.9598a833.chunk.js",
@@ -23,7 +23,10 @@
     "static/media/logo-dom.svg": "/dvc-fond-vera/static/media/logo-dom.a34ca381ee4b0ff156f93015afb19f46.svg",
     "static/media/PDF-logo-dom-gratitude.svg": "/dvc-fond-vera/static/media/PDF-logo-dom-gratitude.ab943a4d9c71272ef345d089f48c0399.svg",
     "static/media/flower2.svg": "/dvc-fond-vera/static/media/flower2.8d5118060b756be5b38055d75a067a6c.svg",
+    "static/media/Pribambas-Regular.woff": "/dvc-fond-vera/static/media/Pribambas-Regular.9d59c5ed0edf6327b06f.woff",
+    "static/media/Pribambas-Regular.eot": "/dvc-fond-vera/static/media/Pribambas-Regular.559e138fb2e8fe559094.eot",
     "static/media/logo-deti.svg": "/dvc-fond-vera/static/media/logo-deti.0a97c877bae5799ec241efa6853be31e.svg",
+    "static/media/Pribambas-Regular.woff2": "/dvc-fond-vera/static/media/Pribambas-Regular.a6b6825e2407d83d4a11.woff2",
     "static/media/flower1.svg": "/dvc-fond-vera/static/media/flower1.b05a04c7525ba917c35747b8a0a46c03.svg",
     "static/media/thankyou-background.svg": "/dvc-fond-vera/static/media/thankyou-background.d5014e8162e43bde165c.svg",
     "static/media/thankyou-background-mobile.svg": "/dvc-fond-vera/static/media/thankyou-background-mobile.dc4381dad3f5fbd1fef5.svg",
@@ -39,13 +42,13 @@
     "static/media/save-disabled.svg": "/dvc-fond-vera/static/media/save-disabled.3d410b5e294d9d72bc5e066194e5c109.svg",
     "static/media/save-active.svg": "/dvc-fond-vera/static/media/save-active.293f435a5b74dbb0101152e52e54e799.svg",
     "static/media/x.svg": "/dvc-fond-vera/static/media/x.c04dd0cf72763b7993dcb2f961b86418.svg",
-    "main.3f4ba630.css.map": "/dvc-fond-vera/static/css/main.3f4ba630.css.map",
+    "main.d01b09dc.css.map": "/dvc-fond-vera/static/css/main.d01b09dc.css.map",
     "main.2051771a.js.map": "/dvc-fond-vera/static/js/main.2051771a.js.map",
     "703.f25e7f0b.chunk.js.map": "/dvc-fond-vera/static/js/703.f25e7f0b.chunk.js.map",
     "735.9598a833.chunk.js.map": "/dvc-fond-vera/static/js/735.9598a833.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3f4ba630.css",
+    "static/css/main.d01b09dc.css",
     "static/js/main.2051771a.js"
   ]
 }
