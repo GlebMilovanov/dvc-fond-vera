@@ -30,7 +30,7 @@ export const Gratitude = () => {
       margin: [0, 0, 0, 0],
       filename: filename,
       image: { type: 'jpeg', quality: 1 },
-      html2canvas: { scale: 2.5 },
+      html2canvas: { scale: 2.5, width: '794px' },
       jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' },
     };
 
