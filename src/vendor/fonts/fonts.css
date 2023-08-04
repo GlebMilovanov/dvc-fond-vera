@@ -1,9 +1,9 @@
 @font-face {
   font-family: 'Pribambas';
   src: local("Pribambas Regular"),
-  url(./../Pribambas/Pribambas-Regular.woff2) format("woff2"),
-  url(./../Pribambas/Pribambas-Regular.woff) format("woff"),
-  url(./../Pribambas/Pribambas-Regular.eot) format("eot");
+  url(./Pribambas/Pribambas-Regular.woff2) format("woff2"),
+  url(./Pribambas/Pribambas-Regular.woff) format("woff"),
+  url(./Pribambas/Pribambas-Regular.eot) format("eot");
   font-weight: 400;
   font-style: normal;
 }
