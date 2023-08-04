@@ -14,7 +14,7 @@
 
 .heading {
   width: 616px;
-  height: auto;
+  height: 230px;
   margin-bottom: 42px;
 }
 
@@ -30,12 +30,12 @@
 
 .veraLogo {
   width: 111px;
-  height: auto;
+  height: 64px;
 }
 
 .domLogo {
   width: 97px;
-  height: auto;
+  height: 77px;
 }
 
 .teacherName {
@@ -124,6 +124,7 @@
 .signatureFedermesserImage {
   position: absolute;
   width: 184px;
+  height: 83px;
   bottom: 0;
   right: 0;
   transform: rotate(8.73 deg);
@@ -132,6 +133,7 @@
 .signatureMoniavaImage {
   position: absolute;
   width: 92px;
+  height: 63px;
   top: 29px;
   right: 0;
 }
