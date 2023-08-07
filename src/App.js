@@ -1,3 +1,5 @@
+import { Route, Routes } from 'react-router-dom';
+
 import { Header } from './layout/Header';
 import { Hero } from './layout/Hero';
 import { ThankYou } from './layout/ThankYou';
@@ -13,10 +15,26 @@ function App() {
       <Header />
       <Hero />
       <ThankYou />
-      {/* <Gratitude /> */}
-      <Certificate />
-      {/* <WhatNext /> */}
-      <WhatElse/>
+      <Routes>
+        <Route
+          path="/dvc-blagodarnost"
+          element={
+            <>
+              <Gratitude />
+              <WhatNext />
+            </>
+          }
+        />
+        <Route
+          path="/dvc-gramota"
+          element={
+            <>
+              <Certificate />
+              <WhatElse />
+            </>
+          }
+        />
+      </Routes>
       <Footer />
     </div>
   );
