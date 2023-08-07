@@ -1,0 +1,91 @@
+.header {
+  width: 100%;
+  position: fixed;
+  top: 25px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.1s linear;
+  z-index: 1000;
+}
+
+.scrolled {
+  background-color: rgba(89, 200, 253, 0.9);
+  top: 0;
+}
+
+.container {
+  max-width: 1120px;
+  width: 100%;
+  padding: 7px 16px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.logoLink {
+  opacity: 1;
+  transition: opacity, 0.3s linear;
+}
+
+.logoLink:hover {
+  opacity: 0.8;
+}
+
+.veraLogo {
+  width: 114px;
+  height: 80px;
+}
+
+.xLogo {
+  width: 19px;
+  height: 19px;
+}
+
+.domLogo {
+  width: 81px;
+  height: 80px;
+}
+
+@media (max-width: 768px) {
+  .header {
+    top: 0;
+    background-color: #58caff;
+  }
+
+  .scrolled {
+    background-color: #58caff;
+  }
+
+  .container {
+    padding: 15px 32px;
+  }
+
+  .logoContainer {
+    gap: 10px;
+  }
+
+  .veraLogo {
+    width: auto;
+    height: 50px;
+  }
+
+  .xLogo {
+    width: 12px;
+    height: 12px;
+  }
+
+  .domLogo {
+    width: auto;
+    height: 50px;
+  }
+}

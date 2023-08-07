@@ -1,5 +1,5 @@
 import styles from './GratitudePDF.module.css';
-import gratitudeHeading from './images/PDF-gratitude-heading.svg';
+import gratitudeHeading from './images/PDF-gratitude-heading.svg'
 import logoVera from './images/PDF-logo-vera-green.svg';
 import logoDom from './images/PDF-logo-dom-gratitude.svg';
 import federmesser from './images/PDF-federmesser.svg';

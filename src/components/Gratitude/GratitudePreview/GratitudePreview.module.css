@@ -19,11 +19,19 @@
 .logoContainer {
   display: flex;
   position: absolute;
-  top: 177px;
+  top: 187px;
   right: 37px;
   gap: 8px;
   align-items: center;
   justify-content: center;
+}
+
+.veraLogo {
+  width: 74.83px;
+}
+
+.domLogo {
+  width: 65.18px;
 }
 
 .teacherName {
@@ -108,6 +116,7 @@
 }
 
 .signatureFedermesserImage {
+  width: 128.93px;
   position: absolute;
   top: 40px;
   right: 0;
@@ -115,6 +124,7 @@
 }
 
 .signatureMoniavaImage {
+  width: 63.95px;
   position: absolute;
   top: 15px;
   right: -20px;

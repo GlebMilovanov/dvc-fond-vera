@@ -1,0 +1,26 @@
+.certificate {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  gap: 31px;
+  justify-content: center;
+  padding: 103.67px 32px 116px;
+  background-image: url(./images/certificate-background-flowers.svg),
+    linear-gradient(0.5deg, #e8f5fb 23.68%, rgba(232, 245, 251, 0) 102.23%);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.gratitudeImage {
+  width: 324px;
+}
+
+@media (max-width: 768px) {
+  .certificate {
+    background-image: url(./images/certificate-background-flowers-mobile.svg),
+      linear-gradient(0.5deg, #e8f5fb 23.68%, rgba(232, 245, 251, 0) 102.23%);
+      gap: 40px;
+      padding: 80px 40px 0;
+      background-position: top;
+      background-repeat: no-repeat;
+  }
+}

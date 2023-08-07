@@ -1,0 +1,152 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  font-family: PT Sans;
+  max-width: 540px;
+  background-image: url(../../../images/previews/certificate-backgound.svg);
+  background-size: 540px;
+  background-repeat: no-repeat;
+  position: relative;
+  padding: 133.72px 25px 17.62px 33.65px;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+
+.help {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  position: absolute;
+  top: 10.2px;
+  right: 70.77px;
+  font-family: Pribambas;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: -0.025em;
+  transform: rotate(-9.07deg);
+  text-align: center;
+  color: white;
+}
+
+.helpShort {
+  right: 85.77px;
+}
+
+.helpNumber {
+  font-family: Pribambas;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.textContainer {
+  margin: 0 0 9.16px;
+}
+
+.participants {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  margin: 0 0 1.32px;
+}
+
+.title {
+  font-family: Pribambas;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #26a9e0;
+  margin: 0 0 5.93px;
+}
+
+.school {
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 25px;
+  margin: 0 0 3.03px;
+}
+
+.textBold {
+  font-family: PT Sans;
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 0 0 7px;
+}
+
+.text {
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 13px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 0 0 5.31px;;
+}
+
+.text:last-child {
+  margin: 0;
+}
+
+.bottomContainer {
+  display: flex;
+}
+
+.signaturesContainer {
+  display: flex;
+  gap: 97.7px;
+}
+
+.signatureFedermesser {
+  max-width: 124px;
+  position: relative;
+}
+
+.signatureFedermesserImage {
+  width: 95.95px;
+  position: absolute;
+  top: 0;
+  right: -91.65px;
+
+}
+
+.signatureMoniava {
+  max-width: 81.3px;
+  position: relative;
+}
+
+.signatureMoniavaImage {
+  width: 51.78px;
+  position: absolute;
+  bottom: 3.8px;
+  right: -40.78px;
+}
+
+.signatureName {
+  font-size: 9px;
+  font-weight: 700;
+  line-height: 12px;
+  margin: 0 0 5px;
+}
+
+.signatureJobTitle {
+  font-size: 8px;
+  font-weight: 400;
+  line-height: 10px;
+  margin: 0;
+}
+
+.logoContainer {
+margin-left: 77.06px;
+}
+
+.veraLogo {
+  width: 47.12px;
+  margin-right: 8px;
+}
+
+.domLogo {
+  width: 41.04px;
+}

@@ -1,0 +1,29 @@
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.inputName {
+  font-family: PT Sans;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 23px;
+  margin: 0 0 8px;
+}
+
+.input {
+  padding: 8.5px 12px;
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 0.5),
+    rgba(255, 255, 255, 0.5)
+  );
+  border: 1px solid #cfd4d9;
+  border-radius: 5px;
+  margin: 0;
+  font-family: PT Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+}

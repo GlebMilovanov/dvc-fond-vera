@@ -1,12 +1,16 @@
+import styles from './Gratitude.module.css';
+import gratitudeImage from '../../images/gratitude.svg';
+
 import React, { useState, useCallback } from 'react';
 import ReactDOMServer from 'react-dom/server';
-import styles from './Gratitude.module.css';
-import gratitudeImage from './images/gratitude.svg';
+import html2pdf from 'html2pdf.js';
+import { useMediaQuery } from '../../hooks/useMediaQuery';
+
 import { GratitudeForm } from './GratitudeForm';
 import { GratitudePreview } from './GratitudePreview/index';
-import html2pdf from 'html2pdf.js';
 import { GratitudePDF } from './GratitudePDF';
-import { useMediaQuery } from '../../hooks/useMediaQuery';
+
+
 
 export const Gratitude = () => {
   const [teacherName, setTeacherName] = useState('');

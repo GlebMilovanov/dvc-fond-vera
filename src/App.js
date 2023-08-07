@@ -1,9 +1,11 @@
-import { Header } from './components/Header';
-import { Hero } from './components/Hero';
-import { ThankYou } from './components/ThankYou';
+import { Header } from './layout/Header';
+import { Hero } from './layout/Hero';
+import { ThankYou } from './layout/ThankYou';
 import { Gratitude } from './components/Gratitude';
+import { Certificate } from './components/Certificate';
 import { WhatNext } from './components/WhatNext';
-import { Footer } from './components/Footer'
+import { Footer } from './layout/Footer';
+import { WhatElse } from './components/WhatElse';
 
 function App() {
   return (
@@ -11,8 +13,10 @@ function App() {
       <Header />
       <Hero />
       <ThankYou />
-      <Gratitude />
-      <WhatNext />
+      {/* <Gratitude /> */}
+      <Certificate />
+      {/* <WhatNext /> */}
+      <WhatElse/>
       <Footer />
     </div>
   );
