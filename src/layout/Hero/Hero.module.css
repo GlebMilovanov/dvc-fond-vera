@@ -105,14 +105,14 @@
 
   .boyImage {
     width: 125px;
-    margin-left: -50px;
+    margin-left: -70px;
     position: relative;
     z-index: 1;
   }
 
   .girlImage {
     width: 104px;
-    margin-right: -50px;
+    margin-right: -70px;
     position: relative;
     z-index: 1;
   }
@@ -133,22 +133,21 @@
   }
 
   .subtitleContainer {
-
     gap: 0;
   }
 
   .domLogo {
-    width: 56px;
+    width: 46px;
   }
 
   .veraLogo {
-    width: 74px;
+    width: 54px;
     margin: 0;
   }
 
   .subtitle {
     font-size: 25px;
     line-height: 28px;
-    max-width: 300px;
+    max-width: 280px;
   }
 }

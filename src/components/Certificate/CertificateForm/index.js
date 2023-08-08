@@ -59,7 +59,7 @@ export const CertificateForm = ({
           type="text"
           placeholder="Введите тип и название населенного пункта"
           required
-          minLength={2}
+          minLength={1}
           maxLength={40}
           onChange={e => handleChange(e, onCityChange)}
           value={values.city}
@@ -72,7 +72,7 @@ export const CertificateForm = ({
           type="text"
           placeholder="Введите номер"
           required
-          minLength={2}
+          minLength={1}
           maxLength={20}
           onChange={e => handleChange(e, onGradeChange)}
           value={values.grade}
@@ -85,7 +85,7 @@ export const CertificateForm = ({
           type="text"
           placeholder="Введите номер или название"
           required
-          minLength={2}
+          minLength={1}
           maxLength={40}
           onChange={e => handleChange(e, onSchoolChange)}
           value={values.school}

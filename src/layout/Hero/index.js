@@ -4,8 +4,18 @@ import girl from './images/girl.svg';
 import boy from './images/boy.svg';
 import logoDom from './images/logo-dom.svg';
 import logoVera from './images/logo-vera.svg';
+import { useLocation } from 'react-router-dom';
 
 export const Hero = () => {
+  const location = useLocation();
+
+  let subtitleText;
+  if (location.pathname === '/dvc-blagodarnost') {
+    subtitleText = 'конструктор благодарности\u00A0для\u00A0учителя';
+  } else if (location.pathname === '/dvc-gramota') {
+    subtitleText = 'конструктор грамоты\u00A0для\u00A0класса';
+  }
+
   return (
     <section className={styles.hero}>
       <h1 className={styles.title}>
@@ -34,7 +44,7 @@ export const Hero = () => {
           className={styles.domLogo}
         />
         <h2 className={styles.subtitle}>
-          конструктор благодарностей&nbsp;для&nbsp;учителя
+          {subtitleText}
         </h2>
         <img
           src={logoVera}
