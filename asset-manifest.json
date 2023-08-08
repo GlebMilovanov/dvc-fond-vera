@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/dvc-fond-vera/static/css/main.daf623ab.css",
-    "main.js": "/dvc-fond-vera/static/js/main.de264780.js",
+    "main.css": "/dvc-fond-vera/static/css/main.308fb64f.css",
+    "main.js": "/dvc-fond-vera/static/js/main.58827a74.js",
     "static/js/703.f25e7f0b.chunk.js": "/dvc-fond-vera/static/js/703.f25e7f0b.chunk.js",
     "static/js/258.c445ce9f.chunk.js": "/dvc-fond-vera/static/js/258.c445ce9f.chunk.js",
-    "static/media/gratitude.svg": "/dvc-fond-vera/static/media/gratitude.4a50d1437280a5e9142238f6fa06ee85.svg",
+    "static/media/gratitude.svg": "/dvc-fond-vera/static/media/gratitude.c383eba7687a8512c4101cb594e2a7ae.svg",
+    "static/media/gratitude.png": "/dvc-fond-vera/static/media/gratitude.f514ffd3bb7a80d79e44.png",
     "static/media/certificate-backgound.svg": "/dvc-fond-vera/static/media/certificate-backgound.8e4c23071f250a03917a.svg",
     "static/media/PDF-certificate-backgound.svg": "/dvc-fond-vera/static/media/PDF-certificate-backgound.74ec866e018ba8b4221d23a09ca34c26.svg",
     "static/media/teacher.svg": "/dvc-fond-vera/static/media/teacher.4cff23a680697fb1a86bd0811e1c7c75.svg",
@@ -47,13 +48,13 @@
     "static/media/vk.svg": "/dvc-fond-vera/static/media/vk.d9026354a1d7500714342319815e665b.svg",
     "static/media/save-disabled.svg": "/dvc-fond-vera/static/media/save-disabled.3d410b5e294d9d72bc5e066194e5c109.svg",
     "static/media/save-active.svg": "/dvc-fond-vera/static/media/save-active.293f435a5b74dbb0101152e52e54e799.svg",
-    "main.daf623ab.css.map": "/dvc-fond-vera/static/css/main.daf623ab.css.map",
-    "main.de264780.js.map": "/dvc-fond-vera/static/js/main.de264780.js.map",
+    "main.308fb64f.css.map": "/dvc-fond-vera/static/css/main.308fb64f.css.map",
+    "main.58827a74.js.map": "/dvc-fond-vera/static/js/main.58827a74.js.map",
     "703.f25e7f0b.chunk.js.map": "/dvc-fond-vera/static/js/703.f25e7f0b.chunk.js.map",
     "258.c445ce9f.chunk.js.map": "/dvc-fond-vera/static/js/258.c445ce9f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.daf623ab.css",
-    "static/js/main.de264780.js"
+    "static/css/main.308fb64f.css",
+    "static/js/main.58827a74.js"
   ]
 }
