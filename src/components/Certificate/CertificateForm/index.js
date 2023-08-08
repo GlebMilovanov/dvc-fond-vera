@@ -4,6 +4,20 @@ import { Form } from '../../../shared/Form';
 import { Input } from '../../../shared/Input';
 import { DropDown } from '../../../shared/DropDown';
 
+const createYearsOption = () => {
+  let options = [...Array(10).keys()].map(year => {
+    let label;
+    if (year === 0) label = 'Не участвовали';
+    else if (year === 1) label = `${year} год`;
+    else if (year > 1 && year < 5) label = `${year} года`;
+    else label = `${year} лет`;
+
+    return { value: year, label };
+  });
+
+  return options;
+};
+
 export const CertificateForm = ({
   years,
   city,
@@ -21,20 +35,6 @@ export const CertificateForm = ({
     initialValues,
     downloadPDF
   );
-
-  const createYearsOption = () => {
-    let options = [...Array(10).keys()].map(year => {
-      let label;
-      if (year === 0) label = 'Не участвовали';
-      else if (year === 1) label = `${year} год`;
-      else if (year > 1 && year < 5) label = `${year} года`;
-      else label = `${year} лет`;
-
-      return { value: year, label };
-    });
-
-    return options;
-  };
 
   return (
     <div className={styles.container}>

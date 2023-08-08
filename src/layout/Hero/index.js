@@ -2,8 +2,9 @@ import styles from './Hero.module.css';
 import logoDeti from './images/logo-deti.svg';
 import girl from './images/girl.svg';
 import boy from './images/boy.svg';
-import logoDom from './images/logo-dom.svg';
+import logoDom from './images/logo-dom.png';
 import logoVera from './images/logo-vera.svg';
+
 import { useLocation } from 'react-router-dom';
 
 export const Hero = () => {
@@ -11,15 +12,15 @@ export const Hero = () => {
 
   let subtitleText;
   if (location.pathname === '/dvc-blagodarnost') {
-    subtitleText = 'конструктор благодарности\u00A0для\u00A0учителя';
+    subtitleText = 'конструктор благодарности для\u00A0учителя';
   } else if (location.pathname === '/dvc-gramota') {
-    subtitleText = 'конструктор грамоты\u00A0для\u00A0класса';
+    subtitleText = 'конструктор грамоты для\u00A0класса';
   }
 
   return (
     <section className={styles.hero}>
       <h1 className={styles.title}>
-        ВСЕРОСИЙСКАЯ Благотворительная акция к 1 сентября
+        ВСЕРОСCИЙСКАЯ Благотворительная акция к 1 сентября
       </h1>
       <div className={styles.logoContainer}>
         <img src={girl} alt="Девочка" className={styles.girlImage} />

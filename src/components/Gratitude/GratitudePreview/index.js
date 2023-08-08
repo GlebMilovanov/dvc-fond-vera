@@ -1,14 +1,13 @@
 import styles from './GratitudePreview.module.css';
-import gratitudeHeading from '../../../images/previews/gratitude-heading.svg'
+import gratitudeHeading from '../../../images/previews/gratitude-heading.svg';
 import logoVera from '../../../images/previews/logo-vera-green.svg';
 import logoDom from '../../../images/previews/logo-dom-gratitude.svg';
 import federmesser from '../../../images/previews/federmesser.svg';
 import moniava from '../../../images/previews/moniava.svg';
-import { forwardRef } from 'react';
 
-export const GratitudePreview = forwardRef(({ name }, ref) => {
+export const GratitudePreview = ({ name }) => {
   return (
-    <div className={styles.container} ref={ref}>
+    <div className={styles.container}>
       <img src={gratitudeHeading} alt="заголовок" className={styles.heading} />
       <div className={styles.logoContainer}>
         <img src={logoVera} alt="логотип" className={styles.veraLogo} />
@@ -72,4 +71,4 @@ export const GratitudePreview = forwardRef(({ name }, ref) => {
       </div>
     </div>
   );
-});
+};

@@ -11,8 +11,11 @@ export const Form = forwardRef(
         <h2 className={styles.title}>{title}</h2>
         <p className={styles.subtitle}>{subtitle}</p>
         <form ref={ref} className={styles.form} {...props}>
-          <div className={`${styles.inputContainer} ${className}`}>{children}</div>
+          <div className={`${styles.inputContainer} ${className}`}>
+            {children}
+          </div>
           <button
+            type="submit"
             className={`${styles.submitButton} ${
               isValid ? '' : styles.disabled
             }`}

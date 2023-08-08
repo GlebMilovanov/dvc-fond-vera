@@ -1,5 +1,5 @@
 import styles from './Gratitude.module.css';
-import gratitudeImage from '../../images/gratitude.svg';
+import gratitudeImage from '../../images/gratitude.png';
 
 import React, { useState, useCallback } from 'react';
 import ReactDOMServer from 'react-dom/server';
