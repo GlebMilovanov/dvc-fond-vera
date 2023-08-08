@@ -86,7 +86,7 @@
 
 @media (max-width: 768px) {
   .hero {
-    padding: 110px 16px 62px;
+    padding: 0 16px 62px;
     background: url(./images/hero-background-mobile.svg),
       linear-gradient(0deg, #59c8fd, #59c8fd),
       radial-gradient(

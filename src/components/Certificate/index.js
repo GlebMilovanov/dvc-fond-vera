@@ -1,5 +1,5 @@
 import styles from './Certificate.module.css';
-import gratitudeImage from '../../images/gratitude.svg';
+import gratitudeImage from '../../images/gratitude.png';
 
 import React, { useState, useCallback } from 'react';
 import ReactDOMServer from 'react-dom/server';
