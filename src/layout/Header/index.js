@@ -1,16 +1,24 @@
 import styles from './Header.module.css';
-import logoVera from '../../images/logo-vera.svg';
-import logoX from '../../images/x.svg';
-import logoDom from '../../images/logo-dom.svg';
+import logoDvc from '../../images/dvc-logo.svg';
 
 import { useState, useEffect } from 'react';
 import { useIsScrolled } from '../../hooks/useIsScrolled';
+import { useMediaQuery } from '../../hooks/useMediaQuery';
 
 import { BurgerMenu } from './BurgerMenu';
 import { BurgerButton } from './BurgerButton';
 
+const links = [
+  { name: 'Главная', href: 'https://dvc.fondvera.ru/' },
+  { name: 'Вопросы-ответы', href: 'https://dvc.fondvera.ru/voprosi' },
+  { name: 'Итоги прошлых лет', href: 'https://dvc.fondvera.ru/itogi' },
+  { name: 'Регистрация', href: 'https://dvc.fondvera.ru/#reg' },
+  { name: 'Сделать перевод', href: 'https://dvc.fondvera.ru/perevod' },
+];
+
 export const Header = () => {
   const isScrolled = useIsScrolled();
+  const isBurger = useMediaQuery('(max-width: 1130px)');
   const [isBurgerMenuOpen, setIsBurgerMenuOpen] = useState(false);
 
   const toggleBurgerMenu = () => {
@@ -35,37 +43,45 @@ export const Header = () => {
         className={`${styles.header} ${isScrolled ? styles.scrolled : ''}`}
       >
         <div className={styles.container}>
-          <div className={styles.logoContainer}>
-            <a
-              href="https://fondvera.ru/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className={styles.logoLink}
-            >
-              <img
-                src={logoVera}
-                alt="логотип фонд Вера"
-                className={styles.veraLogo}
-              />
-            </a>
-            <img src={logoX} alt="х" className={styles.xLogo} />
-            <a
-              href="https://mayak.help/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className={styles.logoLink}
-            >
-              <img
-                src={logoDom}
-                alt="логотип Дом с Маяком"
-                className={styles.domLogo}
-              />
-            </a>
-          </div>
-          <BurgerButton toggleButton={toggleBurgerMenu} isOpen={isBurgerMenuOpen}/>
+          <a
+            href="https://dvc.fondvera.ru/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={styles.logoLink}
+          >
+            <img
+              src={logoDvc}
+              alt="логотип Дети вместо цветов"
+              className={styles.dvcLogo}
+            />
+          </a>
+          {!isBurger && (
+            <nav className={styles.navigation}>
+              <ul className={styles.links}>
+                {links.map((link, idx) => (
+                  <li key={idx}>
+                    <a
+                      href={link.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className={styles.link}
+                    >
+                      {link.name}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </nav>
+          )}
+          {isBurger && (
+            <BurgerButton
+              toggleButton={toggleBurgerMenu}
+              isOpen={isBurgerMenuOpen}
+            />
+          )}
         </div>
       </header>
-      <BurgerMenu isOpen={isBurgerMenuOpen} />
+      <BurgerMenu links={links} isOpen={isBurgerMenuOpen} />
     </>
   );
 };

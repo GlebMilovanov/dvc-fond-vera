@@ -1,7 +1,7 @@
 .header {
   width: 100%;
   position: fixed;
-  top: 25px;
+  top: 0;
   left: 50%;
   transform: translateX(-50%);
   display: flex;
@@ -9,17 +9,18 @@
   justify-content: center;
   transition: all 0.1s linear;
   z-index: 1000;
+  background-color: rgba(109, 207, 253, 1);
 }
 
 .scrolled {
-  background-color: rgba(89, 200, 253, 0.9);
+  background-color: rgba(109, 207, 253, 0.9);
   top: 0;
 }
 
 .container {
-  max-width: 1120px;
+  max-width: 1920px;
   width: 100%;
-  padding: 7px 16px;
+  padding: 15px 40px;
   box-sizing: border-box;
   display: flex;
   align-items: center;
@@ -41,19 +42,23 @@
   opacity: 0.8;
 }
 
-.veraLogo {
-  width: 114px;
-  height: 80px;
+.links {
+  list-style: none;
+  display: flex;
+  gap: 29px;
 }
 
-.xLogo {
-  width: 19px;
-  height: 19px;
+.link {
+  text-decoration: none;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 22px;
+  transition: opacity, 0.3s linear;
 }
 
-.domLogo {
-  width: 81px;
-  height: 80px;
+.link:hover {
+  opacity: 0.8;
 }
 
 @media (max-width: 768px) {

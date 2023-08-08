@@ -1,11 +1,12 @@
 .hero {
   width: 100%;
+  height: 100vh;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 160px 16px 70px;
+  padding: 176px 16px 92.75px;
   background-image: url(./images/hero-background.svg),
     linear-gradient(#59c8fd, #59c8fd),
     radial-gradient(
@@ -13,30 +14,29 @@
       rgba(255, 255, 255, 0.102) 0%,
       rgba(7, 145, 222, 0.2) 100%
     );
-
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: bottom;
   box-sizing: border-box;
 }
 
 .logoContainer {
-  margin-bottom: 40px;
+  margin-bottom: 29.52px;
 }
 
 .girlImage {
-  width: 114.85px;
+  width: 163px;
   height: auto;
 }
 
 .boyImage {
-  width: 137.12px;
+  width: 205px;
   height: auto;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
 }
 
 .link {
-  margin-left: 65px;
-  margin-right: 44px;
+  margin-left: 39px;
+  margin-right: 39px;
   opacity: 1;
   transition: opacity 0.3s linear;
 }
@@ -46,17 +46,47 @@
 }
 
 .title {
+  max-width: 676px;
   margin: 0;
   font-family: Pribambas;
-  font-size: 40px;
+  font-size: 45px;
   font-weight: 400;
   line-height: 50px;
+  text-align: center;
   color: #ffffff;
+  text-align: center;
+  margin-bottom: 27px;
+}
+
+.subtitleContainer {
+  display: flex;
+  gap: 16px;
+}
+
+.veraLogo {
+  margin-top: 28px;
+  width: 106.85px;
+}
+
+.domLogo {
+  width: 96px;
+}
+
+.subtitle {
+  font-family: Pribambas;
+  font-size: 45px;
+  font-weight: 400;
+  line-height: 50px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #fff;
+  max-width: 498px;
+  margin: 0;
 }
 
 @media (max-width: 768px) {
   .hero {
-    padding: 154px 16px 62px;
+    padding: 110px 16px 62px;
     background: url(./images/hero-background-mobile.svg),
       linear-gradient(0deg, #59c8fd, #59c8fd),
       radial-gradient(
@@ -70,36 +100,55 @@
   }
 
   .logoContainer {
-    margin-bottom: 140px;
-    position: relative;
+    margin-bottom: 10px;
   }
 
   .boyImage {
-    position: absolute;
-    width: 105.22px;
-    bottom: -139.29px;
-    right: -1px;
+    width: 125px;
+    margin-left: -50px;
+    position: relative;
+    z-index: 1;
   }
 
   .girlImage {
-    position: absolute;
-    width: 88.13px;
-    bottom: -120px;
-    left: 6px;
+    width: 104px;
+    margin-right: -50px;
+    position: relative;
+    z-index: 1;
   }
 
-  .logoDeti {
-    width: 265.91px;
+  .detiLogo {
+    width: 205px;
   }
 
   .link {
-    margin-left: 0;
-    margin-right: 0;
+    margin-left: 18px;
+    margin-right: 12px;
   }
 
   .title {
     line-height: 45px;
     max-width: 330px;
     text-align: center;
+  }
+
+  .subtitleContainer {
+
+    gap: 0;
+  }
+
+  .domLogo {
+    width: 56px;
+  }
+
+  .veraLogo {
+    width: 74px;
+    margin: 0;
+  }
+
+  .subtitle {
+    font-size: 25px;
+    line-height: 28px;
+    max-width: 300px;
   }
 }

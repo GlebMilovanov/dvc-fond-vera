@@ -3,14 +3,6 @@ import email from './images/email.svg';
 import vk from './images/vk.svg';
 import youtube from './images/youtube.svg';
 
-const links = [
-  { name: 'Главная', href: 'https://dvc.fondvera.ru/' },
-  { name: 'Вопросы-ответы', href: 'https://dvc.fondvera.ru/voprosi' },
-  { name: 'Итоги прошлых лет', href: 'https://dvc.fondvera.ru/itogi' },
-  { name: 'Регистрация', href: 'https://dvc.fondvera.ru/#reg' },
-  { name: 'Сделать перевод', href: 'https://dvc.fondvera.ru/perevod' },
-];
-
 const socials = [
   {
     name: 'email',
@@ -25,7 +17,7 @@ const socials = [
   },
 ];
 
-export const BurgerMenu = ({isOpen}) => {
+export const BurgerMenu = ({isOpen, links}) => {
   return (
     <div className={`${styles.burgerMenu} ${isOpen ? styles.open : ''}`}>
       <nav className={styles.navigation}>
