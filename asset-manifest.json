@@ -1,10 +1,9 @@
 {
   "files": {
-    "main.css": "/dvc-fond-vera/static/css/main.dd1cb0dd.css",
-    "main.js": "/dvc-fond-vera/static/js/main.58827a74.js",
+    "main.css": "/dvc-fond-vera/static/css/main.15b17fce.css",
+    "main.js": "/dvc-fond-vera/static/js/main.049fd6bd.js",
     "static/js/703.f25e7f0b.chunk.js": "/dvc-fond-vera/static/js/703.f25e7f0b.chunk.js",
     "static/js/258.c445ce9f.chunk.js": "/dvc-fond-vera/static/js/258.c445ce9f.chunk.js",
-    "static/media/gratitude.svg": "/dvc-fond-vera/static/media/gratitude.c383eba7687a8512c4101cb594e2a7ae.svg",
     "static/media/gratitude.png": "/dvc-fond-vera/static/media/gratitude.f514ffd3bb7a80d79e44.png",
     "static/media/certificate-backgound.svg": "/dvc-fond-vera/static/media/certificate-backgound.8e4c23071f250a03917a.svg",
     "static/media/PDF-certificate-backgound.svg": "/dvc-fond-vera/static/media/PDF-certificate-backgound.74ec866e018ba8b4221d23a09ca34c26.svg",
@@ -25,7 +24,6 @@
     "static/media/logo-vera.svg": "/dvc-fond-vera/static/media/logo-vera.a4308f5c9072edd7186adacc2c1f55bc.svg",
     "static/media/girl.svg": "/dvc-fond-vera/static/media/girl.b454c3a2f0808af11297f0bc2cca0c05.svg",
     "static/media/PDF-logo-dom-gratitude.svg": "/dvc-fond-vera/static/media/PDF-logo-dom-gratitude.f86db17e92387c611e10a12c9307700f.svg",
-    "static/media/logo-dom.svg": "/dvc-fond-vera/static/media/logo-dom.a34ca381ee4b0ff156f93015afb19f46.svg",
     "static/media/logo-dom-gratitude.svg": "/dvc-fond-vera/static/media/logo-dom-gratitude.f86db17e92387c611e10a12c9307700f.svg",
     "static/media/flower2.svg": "/dvc-fond-vera/static/media/flower2.8d5118060b756be5b38055d75a067a6c.svg",
     "static/media/Pribambas-Regular.woff": "/dvc-fond-vera/static/media/Pribambas-Regular.9d59c5ed0edf6327b06f.woff",
@@ -35,6 +33,7 @@
     "static/media/flower1.svg": "/dvc-fond-vera/static/media/flower1.b05a04c7525ba917c35747b8a0a46c03.svg",
     "static/media/thankyou-background.svg": "/dvc-fond-vera/static/media/thankyou-background.d5014e8162e43bde165c.svg",
     "static/media/thankyou-background-mobile.svg": "/dvc-fond-vera/static/media/thankyou-background-mobile.dc4381dad3f5fbd1fef5.svg",
+    "static/media/logo-dom.png": "/dvc-fond-vera/static/media/logo-dom.c969cfcd4715dc7890d6.png",
     "static/media/dvc-logo.svg": "/dvc-fond-vera/static/media/dvc-logo.a69f74d351995b8544f0de140ca270f0.svg",
     "static/media/PDF-federmesser.svg": "/dvc-fond-vera/static/media/PDF-federmesser.5f63cad5d0b695d81357338dbc42bdc1.svg",
     "static/media/federmesser.svg": "/dvc-fond-vera/static/media/federmesser.5f63cad5d0b695d81357338dbc42bdc1.svg",
@@ -48,13 +47,13 @@
     "static/media/vk.svg": "/dvc-fond-vera/static/media/vk.d9026354a1d7500714342319815e665b.svg",
     "static/media/save-disabled.svg": "/dvc-fond-vera/static/media/save-disabled.3d410b5e294d9d72bc5e066194e5c109.svg",
     "static/media/save-active.svg": "/dvc-fond-vera/static/media/save-active.293f435a5b74dbb0101152e52e54e799.svg",
-    "main.dd1cb0dd.css.map": "/dvc-fond-vera/static/css/main.dd1cb0dd.css.map",
-    "main.58827a74.js.map": "/dvc-fond-vera/static/js/main.58827a74.js.map",
+    "main.15b17fce.css.map": "/dvc-fond-vera/static/css/main.15b17fce.css.map",
+    "main.049fd6bd.js.map": "/dvc-fond-vera/static/js/main.049fd6bd.js.map",
     "703.f25e7f0b.chunk.js.map": "/dvc-fond-vera/static/js/703.f25e7f0b.chunk.js.map",
     "258.c445ce9f.chunk.js.map": "/dvc-fond-vera/static/js/258.c445ce9f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dd1cb0dd.css",
-    "static/js/main.58827a74.js"
+    "static/css/main.15b17fce.css",
+    "static/js/main.049fd6bd.js"
   ]
 }
